@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+ 
+int main() {
+	int a;
+	double b;
+	float c;
+	bool d;
+	char e;
+	cout << "enter an integer";
+	cin >> a;
+	cout << "enter a double floating point" << endl;
+	cin >> b;
+	cout << "enter another floating point"<<endl;
+	cin >> c;
+	cout << "enter o or 1";
+	cin >> d;
+	cout << "enter a character" <<endl;
+	cin >> e;
+	cout << "you have entered this number as integer " << a <<endl <<"and this as double floating point " 
+	<< b << endl <<"and this as double point " << c << endl << "this as boolean number " << d <<endl<<"this as charechter "<< e;
+	// your code goes here
+	return 0;
+}
